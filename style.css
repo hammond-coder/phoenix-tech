@@ -347,6 +347,9 @@ footer .copyright{
 	.printing{
 		margin-top:4rem;
 	}
+	.special-services-header{
+		font-size: 2rem;
+	}
 	.special-services-container{
 		flex-wrap: wrap;
 		margin-bottom: 15rem;
