@@ -269,7 +269,7 @@ footer .copyright{
 
 @media screen and (max-width:600px){	/*	MOBILE VIEW	*/
 	body{
-	margin-right:-1.5rem;
+	margin-right:-2rem;
 	}
 	.menu{
         order:1;
