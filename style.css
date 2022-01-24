@@ -268,7 +268,7 @@ footer .copyright{
 
 
 @media screen and (max-width:600px){	/*	MOBILE VIEW	*/
-	header{
+	body{
 	margin-right:-2rem;	
     }	
 	.menu{
