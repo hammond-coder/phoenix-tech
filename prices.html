@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" initial scale="1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<title>Prices</title>
+<style>
+*{box-sizing:border-box;}
+
+body{
+background:#e6e6e6;
+font-family:'Roboto',sans-serif;
+font-size:1.1rem;
+margin:0;
+height:100%;
+letter-spacing:2px;
+}
+
+.grid-container{
+display:grid;
+grid-template-columns:1fr 0.5fr;
+grid-template-rows:auto auto;
+height:100%;
+margin:2rem;
+}
+
+h2{
+	padding-left:1rem;
+	color:teal;
+}
+p{
+	color:#404040;
+	line-height:2rem;
+	grid-row:2/3;
+	grid-column:1/1;
+}
+.container{
+margin-top:7rem;
+grid-row:2/3;
+grid-column:1/2;
+}
+
+.footer {
+	margin-top:-1%;
+	background-color:black;
+	min-height:130px;
+	width:100%;
+	color:#666666;
+}
+
+a{
+	text-decoration:none;
+}
+	
+
+table{
+background-color:grey;
+color:white;
+}
+
+table,th,td {
+border:1px dotted white;
+border-collapse:collapse;
+padding:20px;
+color:white;
+}
+
+th{
+background-color:teal;
+}
+
+@media screen and (max-width:600px){
+	.side-links{
+		grid-row:3/4;
+		grid-column:1/4;
+		margin:auto;
+	}
+table{
+	margin-left:-1.1rem;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="grid-container">
+
+<p>We provide quality services to our customers at affordable prices. Below are our services and their respective prices;</p>
+
+
+<div class="container">
+<table>
+<tr>
+	<th>SERVICES</th>
+	<th>PRICES(GHC)</th>
+</tr>
+
+<tr>
+	<td>Printing (per page)</td>
+	<td>1.00</td>
+	</tr>
+	
+<tr>	
+<td>Lamination (per document)</td>
+	<td>2.00</td>
+	</tr>
+	
+	<tr>	
+<td>Scanning (per document)</td>
+	<td>2.00</td>
+	</tr>
+	
+	<tr>
+	<td>Internet Cafe</td>
+	<td>1.00 (30mins)  2.00 (1hr)</td>
+	</tr>
+	
+	<tr>
+<td>Photocopy (per page)</td>
+	<td>0.50</td>
+	</tr>
+	
+	<tr>
+<td>Graphic Design</td>
+	<td>Conditional</td>
+	</tr>
+	
+	<tr>	
+<td>Passport Picture (4copies)</td>
+	<td>5.00</td>
+	</tr>
+	
+	<tr>	
+<td>Surveillance</td>
+	<td>Conditional</td>
+	</tr>
+	
+	<tr>	
+<td>Computer Training</td>
+	<td>200.00 (3months)  400.00 (6months)</td>
+	</tr>
+</table>
+</div>
+</div>
+
+<div class="footer">
+	<p><span>&copy;</span>2022 Phoenix Technologies. All rights reserved</p>
+			</div>
+			
+</body>

@@ -1,0 +1,446 @@
+*{box-sizing:border-box;
+	scroll-behavior: smooth;
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:'Poppins',sans-serif;
+	font-size: 1.3rem;
+	background:#e6e6e6;
+	animation:anim 1s ease-in-out;
+}
+@keyframes anim{
+    0%{opacity:0}
+    100%{opacity:1}
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    background-color:#f0f0f0 ;
+}
+header .logo {
+	margin-top: 0.5rem;
+    max-width:22rem;
+    max-height:10rem;
+}
+
+.hamburger{
+    margin:2rem 0 -1rem 1rem;
+    display: none;
+    cursor: pointer;
+}
+.menu{
+    margin:0;
+    padding:0;
+}
+nav{
+    margin-right: 3rem;
+    margin-top:2rem;
+}
+
+nav li{
+    display: inline-block;
+    padding-left: 1rem;
+  
+}
+nav li a{
+text-decoration: none;
+display: block;
+color:grey;
+}
+nav li a:hover{
+    color:#05DC29;
+    transition:0.5s;
+}
+
+.hero-section{
+    display: flex;
+	text-align:center;
+	color:white;
+    justify-content: center;
+	background-image:linear-gradient(rgba(0,0,255,0.6),rgba(0,255,0,0.6)),url(intt.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+    height:650px;
+}
+.hero-text{            /*  Container for  Purpose and Learn More  */
+    margin:7rem 0 1rem;
+}
+.hero-section h1{
+    font-size: 3rem;
+	text-shadow:6px 6px 10px black;
+	margin-bottom: 2rem;
+}
+.hero-section p{
+    font-size: 2rem;
+	margin-top:1rem;
+	text-shadow:4px 4px 6px black;
+}
+.hero-image{
+    max-width:35rem;
+    max-height:35rem;
+}
+
+.learn-more{
+    width:10rem;
+    height:3rem;
+    background-color: #008BEA;
+    border-radius: 0.5rem;
+    text-align: center;
+	margin:0 auto;
+    line-height: 3rem;
+	box-shadow:2px 2px 6px black;
+}
+.learn-more a{
+    color:#ffff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.learn-more:hover{
+    background-color:#05DC29 ;
+    transition: 0.5s;
+}
+
+.about-us-header{
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}
+.about-us-section{
+	display:flex;
+	margin:4rem;
+	gap:4rem;
+	text-align: center;
+}
+.about-us-section img{
+	max-width: 20rem;
+}
+.services-header{
+	display: flex;
+	justify-content: center;
+	margin-top: 5rem;
+}
+.services-container{
+	margin:4rem;
+	line-height: 2.5rem;
+}
+.printing{
+	display:flex;
+	gap:2rem;
+}
+.name-printing-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top:-4rem;
+}
+
+.lamination{
+	display:flex;
+	gap:2rem;
+}
+.name-lamination-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	order:2;
+	margin-top:-4rem;
+}
+
+.scanning{
+	display:flex;
+	gap:2rem;
+}
+.name-scanning-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top:-4rem;
+}
+
+.online-registration{
+	display:flex;
+	gap:2rem;
+}
+.name-registration-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top:-4rem;
+	order:2;
+}
+
+.internet-cafe{
+	display:flex;
+	gap:2rem;
+}
+.name-cafe-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top:-4rem;
+}
+
+.graphic-design{
+	display:flex;
+	gap:2rem;
+}
+.name-graphic-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top:-4rem;
+	order:2;
+}
+
+.passport-pictures{
+	display:flex;
+	gap:2rem;
+}
+.name-passport-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top: -4rem;
+}
+
+.photocopy{
+	display:flex;
+	gap:2rem;
+}
+.name-photocopy-and-image{			/*	SERVICE NAME WITH IMAGE	*/
+	margin-top: -4rem;
+	order:2;
+}
+
+#printing, #lamination, #scanning, #registration, 
+#cafe, #graphic, #passport, #photocopy {
+	color:#008BEA;
+	font-weight: bold;
+}
+
+.special-services-header{
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+.special-services-container{
+	display:flex;
+	justify-content: space-around;
+	margin:4rem;
+	gap:4rem;
+	height:30rem;
+}
+
+.training {
+	text-align:center;
+	padding:2rem;
+	border-radius:20px;
+}
+.surveillance {
+	text-align:center;
+	padding:2rem;
+	border-radius:20px;
+}
+.surveillance a,.training a{
+	color:#008BEA;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#back-to-top{
+	display: none;
+}
+
+footer{
+    background-color: rgb(34, 34, 34);
+    color:white;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .column-1, footer .column-2{
+    margin-top:2rem;
+}
+footer .column-2 img{
+    width:2rem;
+    height:2rem;
+}
+footer .column-2 img{
+    margin-right: 1rem;
+}
+footer h1{
+    color:#008EAB;
+    font-size: 2rem;
+}
+footer p{
+    font-weight: 300;
+}
+footer .copyright{
+    color: rgb(157, 158, 158);
+	margin-left: 2rem;
+}
+
+
+@media screen and (max-width:600px){	/*	MOBILE VIEW	*/
+	.menu{
+        order:1;
+    }
+    .hamburger{
+        display: block;
+    }
+    nav {
+        position: absolute;
+        z-index:1;
+		width:100%;
+    }
+    nav li{
+        background-color: #008BEA;
+        display: none;
+        border-bottom: 1px solid rgb(224, 224, 224);
+        padding:0.5rem;
+        animation:anime 0.7s;
+    }
+    @keyframes anime{
+        0%{opacity:0; margin-left: -500px;}
+        100%{opacity:1; margin: 0;}
+    }
+    nav li a {
+        text-align: center;
+        color:#ffff;
+    }
+    .logo{
+        order:2;
+        width:15rem;
+        height:7rem;
+		margin-top:0.5rem;
+    }
+	.hero-section{
+		font-size: 1rem;
+	}
+	.hero-text h1{
+		font-size: 2rem;
+		margin-top:0rem;
+		margin-bottom:1.5rem;
+	}
+    
+	.about-us-section{
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin:1rem;
+		text-align: left;
+	}
+	.about-us-section img{
+		width:19rem;
+		margin:0 auto;
+	}
+
+	.services-container{
+		margin:1rem;
+		text-align: left;
+	}
+	.printing, .scanning, .internet-cafe, .passport-pictures{						/*		Services stack on top of each other to create one column*/
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin:1rem;
+		text-align: center;
+	}
+	.lamination, .online-registration,.graphic-design, .photocopy {	/*	Services reverse stack on top of each other to create one column*/
+		flex-wrap:wrap-reverse;
+		margin:1rem;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+	.printing p, .lamination p, .scanning p, .online-registration p, 
+	.internet-cafe p, .graphic-design p, .passport-pictures p, .photocopy p{
+		margin-top:1rem;
+}
+	.printing{
+		margin-top:4rem;
+	}
+	.special-services-container{
+		flex-wrap: wrap;
+		margin-bottom: 15rem;
+	}
+	.special-services-container img{
+		margin-top: -3rem;
+		border-radius: 5px 5px 5px;
+	}
+
+	#back-to-top{
+		display: block;
+	}
+	
+	footer{
+		min-height:60px;
+		}
+	footer .wrapper{
+        flex-wrap: wrap;
+    }
+    footer .copyright{
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    footer .column-2{
+       margin:-2rem 9rem 2rem 0;
+    }
+	
+}
+	@media screen and (min-width:601px) and (max-width:850px){		/*		TABLETS AND SMALL SCREEN PCs*/
+		.hamburger{
+			display: block;
+		}
+		nav {
+			position: absolute;
+			z-index:1;
+			width: 100%;
+		}
+		nav li{
+			background-color: #008BEA;
+			display: none;
+			border-bottom: 1px solid rgb(224, 224, 224);
+			padding:0.5rem;
+			animation:anime 0.7s;
+		}
+		@keyframes anime{
+			0%{opacity:0; margin-left: -500px;}
+			100%{opacity:1; margin: 0;}
+		}
+		nav li a {
+			text-align: center;
+			color:#ffff;
+		}
+		.logo{
+			order:2;
+			width:17rem;
+			height:7rem;
+		}
+		
+		.about-us-section{
+			flex-wrap: wrap;
+			flex-direction: column;
+			margin:1.5rem;
+		}
+		.about-us-section img{
+			width:27rem;
+			margin: 0 auto;
+		}
+
+		
+		.printing, .scanning, .internet-cafe, .passport-pictures{						/*		Services stack on top of each other to create one column*/
+			flex-wrap: wrap;
+			flex-direction: column;
+			margin:1rem ;
+			text-align: center;
+			
+		}
+		.lamination, .online-registration,.graphic-design, .photocopy {	/*	Services reverse stack on top of each other to create one column*/
+			flex-wrap:wrap-reverse;
+			margin:1rem;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+		}
+		/*.printing p, .lamination p, .scanning p, .online-registration p, 
+	.internet-cafe p, .graphic-design p, .passport-pictures p, .photocopy p{
+		margin-top:;
+}*/
+		.special-services-container{
+			flex-wrap: wrap;
+			margin-bottom: 10rem;
+		}
+		.special-services-container img{
+			margin-top: -4rem;
+			
+		}
+		#back-to-top{
+			display: block;
+		}
+		
+	}
