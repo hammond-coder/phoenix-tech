@@ -50,7 +50,7 @@ nav li{
 nav li a{
 text-decoration: none;
 display: block;
-color:grey;
+color:rgb(31, 31, 31);
 }
 nav li a:hover{
     color:#05DC29;
@@ -287,7 +287,6 @@ footer .copyright{
         display: none;
         border-bottom: 1px solid rgb(224, 224, 224);
         padding:0.5rem;
-	color:#ffff;
         animation:anime 0.7s;
     }
     @keyframes anime{
