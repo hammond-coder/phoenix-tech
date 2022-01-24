@@ -50,7 +50,7 @@ nav li{
 nav li a{
 text-decoration: none;
 display: block;
-color:rgb(31, 31, 31);
+color:grey;
 }
 nav li a:hover{
     color:#05DC29;
